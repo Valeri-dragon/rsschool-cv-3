@@ -32,4 +32,4 @@ I have a secondary technical education in the profession **“computer engineeri
 
 ## ENGLISH LANGUAGE LEVEL - **A2**
 
-_my email_ u4eba2013@gmail.com
+_my e-mail_ u4eba2013@gmail.com
