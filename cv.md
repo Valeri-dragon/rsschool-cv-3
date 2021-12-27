@@ -31,3 +31,5 @@ Task for self-study from the [JAVASCRIPT СТАРТОВЫЙ course from ITDVN] (
 I have a secondary technical education in the profession **“computer engineering software”** 2007. I also have a higher economic education - a specialist in the sphere of "Economic Security". Since 2020, I have been doing in self-education in web-development.
 
 ## ENGLISH LANGUAGE LEVEL - **A2**
+
+_my email_ u4eba2013@gmail.com
