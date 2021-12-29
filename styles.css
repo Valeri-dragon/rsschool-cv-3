@@ -1,0 +1,72 @@
+:root {
+  box-sizing: border-box;
+}
+
+*,
+::before,
+::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #f1ecd8;
+  font-family: "ABeeZee", sans-serif;
+  color: rgb(5, 122, 138);
+}
+
+h1 {
+  border: rgb(5, 122, 138) solid 3px;
+}
+
+h1,
+h3 {
+  text-transform: uppercase;
+}
+
+a {
+  color: rgb(5, 122, 138);
+}
+
+.conteiner {
+  display: flex;
+  max-width: 1080px;
+  margin: 0 auto;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.contacts > li {
+  list-style: none;
+}
+
+.avatar {
+  max-width: 200px;
+  border-radius: 30%;
+  box-shadow: 0 0 10 rgb(5, 122, 138);
+}
+
+.section {
+  margin: 0;
+}
+
+.contact-icon {
+  width: 50px;
+  height: 50px;
+}
+
+footer {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-icon {
+  width: 4%;
+}
