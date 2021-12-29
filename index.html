@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>CV-HTML Mariya Kuchma</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=ABeeZee&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="conteiner">
+    <header class="header">
+      <img class="avatar" src="images/avatar4cv.png" alt="my photo for cv">
+      <h1>Mariya Kuchma</h1>
+      <ul class="contacts">
+        <li><a href="https://github.com/MikaLaz"><img class="contact-icon" src="images/Octocat.png"
+              alt="Icon github.com"></a></li>
+        <li><a href="Мика#9438"><img class="contact-icon" src="images/discord.png" alt="Icon Discord"></a></li>
+        <li><a href="https://t.me/itsperfectlife"><img class="contact-icon" src="images/pngwing.png"
+              alt="Icon Telegram"></a></li>
+      </ul>
+    </header>
+
+    <main>
+      <section class="section">
+        <h3>About me</h3>
+        <p>At the moment, I want to change my field of activity, I like web development and I would like to develop in
+          this way.</p>
+      </section>
+      <section class="section">
+        <h3>I have experience working with:</h3>
+        <ul>
+          <li>HTML, CSS</li>
+          <li>Git, github.com</li>
+          <li>JS Starter</li>
+          <li>Wordpress sites and admin panel</li>
+        </ul>
+      </section>
+      <section class="section">
+        <h3>Sample code</h3>
+        <p>Task for self-study from the <a href="https://itvdn.com/ru/video/javascript-starter">JAVASCRIPT СТАРТОВЫЙ</a>
+          course from ITDVN : Topic Functions. Ask the user for a number. Print all the numbers in reverse order from
+          the
+          value entered by the user to 1. Use recursion for the solution. My decision:</p>
+        <pre>
+        let input = +prompt("Введите число");
+        function alertInput(counter) {
+        	  console.log(counter);
+            if (counter !=0) {
+        	      counter--;
+        	  	  alertInput(counter);
+          	}
+        }
+        alertInput(input);
+        </pre>
+      </section>
+      <section class="section">
+        <h3>My education</h3>
+        <p>I have a secondary technical education in the profession <b>“computer engineering software”</b> 2007. Since
+          2020, I have been doing in self-education in web-development.
+        </p>
+      </section>
+      <section class="section">
+        <h3>English Language level - A2</h3>
+      </section>
+    </main>
+    <footer>
+      <p>
+        <span>&#169;</span><a href="https://github.com/MikaLaz">MikaLaz</a> for
+        <a href="https://rs.school/js/"> <img class="footer-icon" src="images/rs_school_js.svg" alt="Icon RSSchool">
+          JavaScript / Front-end course</a>
+        <br><time datetime="2021">2021</time>
+      </p>
+    </footer>
+  </div>
+</body>
+
+</html>
