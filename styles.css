@@ -31,10 +31,6 @@ a {
   background-color: #f9f9d9;
 }
 
-.conteiner > a {
-  color: rgb(5, 120, 162);
-}
-
 .nav__menu {
   display: flex;
   flex-wrap: wrap;
@@ -48,7 +44,8 @@ a {
 
 .nav__menu-item {
   list-style-type: none;
-  margin-left: 10px;
+  margin-left: 15px;
+  text-transform: uppercase;
 }
 
 .nav__menu-item > a {
@@ -90,6 +87,11 @@ a {
 
 .section {
   margin: 0;
+}
+
+.link {
+  color: rgb(5, 120, 162);
+  text-decoration: none;
 }
 
 .contact-icon {
