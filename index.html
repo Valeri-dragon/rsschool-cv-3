@@ -4,6 +4,7 @@
 <head>
   <meta charset="utf-8">
   <title>CV-HTML Mariya Kuchma</title>
+  <link rel="shortcut icon" type="image/x-icon" href="./images/flavicon.ico">
   <link rel="stylesheet" type="text/css" href="styles.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -13,39 +14,55 @@
 <body>
   <div class="conteiner">
     <header class="header">
-      <img class="avatar" src="images/avatar4cv.png" alt="my photo for cv">
-      <h1>Mariya Kuchma</h1>
-      <ul class="contacts">
-        <li><a href="https://github.com/MikaLaz"><img class="contact-icon" src="images/Octocat.png"
-              alt="Icon github.com"></a></li>
-        <li><a href="Мика#9438"><img class="contact-icon" src="images/discord.png" alt="Icon Discord"></a></li>
-        <li><a href="https://t.me/itsperfectlife"><img class="contact-icon" src="images/pngwing.png"
-              alt="Icon Telegram"></a></li>
-      </ul>
+      <nav>
+        <ul class="nav__menu">
+          <li class="nav__menu-item"><a href="#am">About me</a></li>
+          <li class="nav__menu-item"><a href="#exp">Expirience</a></li>
+          <li class="nav__menu-item"><a href="#smpl">Sample code</a></li>
+          <li class="nav__menu-item"><a href="#edu">Education</a></li>
+          <li class="nav__menu-item"><a href="#proj">Projects</a></li>
+        </ul>
+      </nav>
     </header>
 
-    <main>
-      <section class="section">
-        <h3>About me</h3>
-        <p>At the moment, I want to change my field of activity, I like web development and I would like to develop in
-          this way.</p>
-      </section>
-      <section class="section">
-        <h3>I have experience working with:</h3>
-        <ul>
-          <li>HTML, CSS</li>
-          <li>Git, github.com</li>
-          <li>JS Starter</li>
-          <li>Wordpress sites and admin panel</li>
+    <main class="main__wrapper">
+
+      <aside class="introduse">
+        <img class="avatar" src="images/avatar4cv.png" alt="my photo for cv">
+        <h1>Hello!<br> I'm Mariya Kuchma</h1>
+        <ul class="contacts">
+          <li><a href="https://github.com/MikaLaz"><img class="contact-icon" src="images/Octocat.png"
+                alt="Icon github.com"></a></li>
+          <li><a href="Мика#9438"><img class="contact-icon" src="images/discord.png" alt="Icon Discord"></a></li>
+          <li><a href="https://t.me/itsperfectlife"><img class="contact-icon" src="images/pngwing.png"
+                alt="Icon Te legram"></a></li>
         </ul>
-      </section>
-      <section class="section">
-        <h3>Sample code</h3>
-        <p>Task for self-study from the <a href="https://itvdn.com/ru/video/javascript-starter">JAVASCRIPT СТАРТОВЫЙ</a>
-          course from ITDVN : Topic Functions. Ask the user for a number. Print all the numbers in reverse order from
-          the
-          value entered by the user to 1. Use recursion for the solution. My decision:</p>
-        <pre>
+      </aside>
+      <div class="wrapper">
+        <section class="section">
+          <h2 id="am">About me</h2>
+          <p>I work as a civil servant, I am occupied with the distribution of electronic signatures. At the moment, I
+            want to change my field of activity, I like web development and I would like to develop in
+            this way.</p>
+        </section>
+        <section class="section">
+          <h3 id="#exp">I have experience working with:</h3>
+          <ul>
+            <li>HTML, CSS</li>
+            <li>Git, github.com</li>
+            <li>JS Starter</li>
+            <li>Wordpress sites and admin panel</li>
+          </ul>
+        </section>
+        <section class="section">
+          <h3 id="smpl">Sample code</h3>
+          <p>Task for self-study from the <a class="link"
+              href="https://itvdn.com/ru/video/javascript-starter">JAVASCRIPT
+              СТАРТОВЫЙ</a>
+            course from ITDVN : Topic Functions. Ask the user for a number. Print all the numbers in reverse order from
+            the
+            value entered by the user to 1. Use recursion for the solution. My decision:</p>
+          <pre>
         let input = +prompt("Введите число");
         function alertInput(counter) {
         	  console.log(counter);
@@ -56,23 +73,29 @@
         }
         alertInput(input);
         </pre>
-      </section>
-      <section class="section">
-        <h3>My education</h3>
-        <p>I have a secondary technical education in the profession <b>“computer engineering software”</b> 2007. Since
-          2020, I have been doing in self-education in web-development.
-        </p>
-      </section>
-      <section class="section">
-        <h3>English Language level - A2</h3>
-      </section>
+        </section>
+        <section class="section">
+          <h3 id="edu">My education</h3>
+          <p>I have a secondary technical education in the profession <b>“computer engineering software”</b> 2007, I
+            also have a higher education in the field of economic security, graduated from Kuban State University in
+            2018. Since
+            2020, I have been doing in self-education in web-development.
+          </p>
+        </section>
+        <section class="section">
+          <h3>English Language level - A2</h3>
+        </section>
+        <section class="projects">
+          <h3 id="proj">My projects</h3><a href="https://mikalaz.github.io/rsschool-cv/">My CV</a>
+        </section>
+      </div>
     </main>
     <footer>
       <p>
         <span>&#169;</span><a href="https://github.com/MikaLaz">MikaLaz</a> for
         <a href="https://rs.school/js/"> <img class="footer-icon" src="images/rs_school_js.svg" alt="Icon RSSchool">
           JavaScript / Front-end course</a>
-        <br><time datetime="2021">2021</time>
+        <br><time datetime="2021">2022</time>
       </p>
     </footer>
   </div>
